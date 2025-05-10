@@ -80,6 +80,7 @@ export default {
       const logChannelId = config.logChannelId || null;
 
       const embed = new EmbedBuilder()
+        .setColor('#5865F2')
         .setDescription(`## Verifikasi Member\nHello! 👋 <@${interaction.user.id}>\nBerikut data verifikasi kamu!`)
         .setThumbnail(avatar)
         .addFields(
